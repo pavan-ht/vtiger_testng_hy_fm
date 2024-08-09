@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-14T16:13:57 IST" name="master" finished-at="2024-06-14T16:14:16 IST" duration-ms="18823">
+  <suite started-at="2024-08-09T10:12:58 IST" name="Default suite" finished-at="2024-08-09T10:13:35 IST" duration-ms="36066">
     <groups>
     </groups>
-    <test started-at="2024-06-14T16:13:57 IST" name="Test" finished-at="2024-06-14T16:14:16 IST" duration-ms="18823">
-      <class name="testcases.loginTestcase_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.loginTestcase_001@41709512]" started-at="2024-06-14T16:13:57 IST" name="setup" finished-at="2024-06-14T16:14:04 IST" duration-ms="6566" status="PASS">
+    <test started-at="2024-08-09T10:12:58 IST" name="Default test" finished-at="2024-08-09T10:13:35 IST" duration-ms="36066">
+      <class name="testcases.tc_03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.tc_03@54a67a45]" started-at="2024-08-09T10:12:59 IST" name="setup" finished-at="2024-08-09T10:13:07 IST" duration-ms="8426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogin()[pri:0, instance:testcases.loginTestcase_001@41709512]" started-at="2024-06-14T16:14:04 IST" name="testlogin" finished-at="2024-06-14T16:14:11 IST" duration-ms="6611" status="PASS">
+        <test-method signature="tc_03()[pri:0, instance:testcases.tc_03@54a67a45]" started-at="2024-08-09T10:13:07 IST" name="tc_03" finished-at="2024-08-09T10:13:29 IST" duration-ms="21706" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTestcase_001@41709512]" started-at="2024-06-14T16:14:11 IST" name="teardown" finished-at="2024-06-14T16:14:16 IST" duration-ms="5522" status="PASS">
+        </test-method> <!-- tc_03 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.tc_03@54a67a45]" started-at="2024-08-09T10:13:29 IST" name="teardown" finished-at="2024-08-09T10:13:35 IST" duration-ms="5815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testcases.loginTestcase_001 -->
-    </test> <!-- Test -->
-  </suite> <!-- master -->
+      </class> <!-- testcases.tc_03 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
