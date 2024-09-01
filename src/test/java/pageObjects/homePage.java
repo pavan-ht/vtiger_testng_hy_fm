@@ -37,7 +37,27 @@ public class homePage extends Basepage {
 	@FindBy(xpath="//input[@name='firstname']")
 	WebElement ldfrstname;
 	
+	@FindBy(xpath="input[@name='lastname']")
+	WebElement ldlastname;
 	
+	@FindBy(xpath="//input[@title='Save [Alt+S]']")
+	WebElement saveld;
+	
+	@FindBy(xpath="//input[@name='company']")
+	WebElement cmpname;
+	
+	public void compname(String cmpname1) {
+		
+		cmpname.sendKeys(cmpname1);
+	}
+	public void savelead() {
+		
+		saveld.click();
+	}
+	public void lastnameld(String ldlstname) {
+		
+		ldlastname.sendKeys(ldlstname);
+	}
 	public void frstnameld(String ldfrstnm) {
 		
 		ldfrstname.sendKeys(ldfrstnm);

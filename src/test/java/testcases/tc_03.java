@@ -1,5 +1,6 @@
 package testcases;
 
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.Test;
 
 import pageObjects.homePage;
@@ -23,6 +24,10 @@ public class tc_03 extends baseClass {
 		hp.lead();
 		hp.createlead();
 		hp.frstnameld(randomeString());
+		
+		hp.lastnameld(randomeString());
+		hp.compname(randomeString());
+		hp.savelead();
 	}
 
 }

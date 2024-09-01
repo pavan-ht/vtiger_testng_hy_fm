@@ -9,6 +9,9 @@ public class loginTestcase_001 extends baseClass {
 
 	@Test
 	public void testlogin() {
+		
+		logger.info("***************test started*******************");
+		
 	loginPage lp=new loginPage(driver);	
 		
 	lp.setmail("admin");

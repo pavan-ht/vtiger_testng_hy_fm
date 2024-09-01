@@ -10,7 +10,7 @@
             <PatternLayout pattern="${log-pattern}"/>
         </Console>
 
-        <RollingFile name="File" fileName="${log-path}/automation.log"
+        <RollingFile name="File" fileName="${log-path}/automation1.log"
                      filePattern="${log-path}/automation-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout pattern="${log-pattern}"/>
             <Policies>
