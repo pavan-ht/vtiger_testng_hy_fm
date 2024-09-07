@@ -46,6 +46,16 @@ public class homePage extends Basepage {
 	@FindBy(xpath="//input[@name='company']")
 	WebElement cmpname;
 	
+	@FindBy(xpath="//img[@title='vtiger-crm-logo.gif']")
+	WebElement logo;
+	
+	public boolean ishomeexists() {
+		
+		return(logo.isDisplayed());
+		
+		
+	}
+	
 	public void compname(String cmpname1) {
 		
 		cmpname.sendKeys(cmpname1);

@@ -2,6 +2,7 @@ package testcases;
 
 import org.testng.annotations.Test;
 
+import pageObjects.homePage;
 import pageObjects.loginPage;
 import testbase.baseClass;
 
@@ -17,6 +18,9 @@ public class loginTestcase_001 extends baseClass {
 	lp.setmail("admin");
 	lp.passwrd("admin");
 	lp.sbmt();
+	homePage hp =new homePage(driver);
+	hp.ishomeexists();
+	logger.info("***************test ended*******************");
 	}
     	
 

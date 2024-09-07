@@ -3,10 +3,11 @@
 <suite name="master">
   <test thread-count="5" name="Test">
   <parameter name="os" value="Windows" />
-  	<parameter name="browser"  value="edge"/>
+  	<parameter name="browser"  value="chrome"/>
   
     <classes>
       <class name="testcases.loginTestcase_001"/>
+      <class name="testcases.homepage_tc002"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- master -->
