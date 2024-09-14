@@ -8,7 +8,7 @@ import pageObjects.loginPage;
 import testbase.baseClass;
 
 public class tc_03 extends baseClass {
-	@Test
+	@Test(groups="Master")
 	public void tc_03() {
 		
 		loginPage lp=new loginPage(driver);
@@ -28,6 +28,8 @@ public class tc_03 extends baseClass {
 		hp.lastnameld(randomeString());
 		hp.compname(randomeString());
 		hp.savelead();
+		hp.mhover();
+		hp.signout();
 	}
 
 }

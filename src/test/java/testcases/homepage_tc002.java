@@ -8,7 +8,7 @@ import testbase.baseClass;
 
 public class homepage_tc002 extends baseClass{
 
-	@Test
+	@Test(groups= {"Sanity","Master"})
 	public void homepagetest() {
 		
 		loginPage lp=new loginPage(driver);
@@ -21,6 +21,8 @@ public class homepage_tc002 extends baseClass{
 		hp.lead();
 		hp.createlead();
 		hp.entername(randomeString());
+		hp.mhover();
+		hp.signout();
 		
 	}
 	

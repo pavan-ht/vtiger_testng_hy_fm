@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class homePage extends Basepage {
@@ -48,6 +49,20 @@ public class homePage extends Basepage {
 	
 	@FindBy(xpath="//img[@title='vtiger-crm-logo.gif']")
 	WebElement logo;
+	
+	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
+	WebElement mhover;
+	@FindBy(xpath="//a[normalize-space()='Sign Out']")
+	WebElement signout;
+	
+	public void signout() {
+		signout.click();
+	}
+	public void mhover() {
+		Actions act =new Actions(driver);
+		act.moveToElement(mhover).build().perform();
+	
+	}
 	
 	public boolean ishomeexists() {
 		

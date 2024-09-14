@@ -8,7 +8,7 @@ import testbase.baseClass;
 
 public class loginTestcase_001 extends baseClass {
 
-	@Test
+	@Test(groups= {"Regression","Master","smoke"}) 
 	public void testlogin() {
 		
 		logger.info("***************test started*******************");
@@ -20,6 +20,8 @@ public class loginTestcase_001 extends baseClass {
 	lp.sbmt();
 	homePage hp =new homePage(driver);
 	hp.ishomeexists();
+	hp.mhover();
+	hp.signout();
 	logger.info("***************test ended*******************");
 	}
     	

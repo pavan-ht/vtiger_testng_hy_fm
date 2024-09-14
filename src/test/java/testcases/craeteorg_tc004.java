@@ -9,7 +9,7 @@ import testbase.baseClass;
 
 public class craeteorg_tc004 extends baseClass {
 
-	@Test
+	@Test(groups="Master")
 	public void craeteorg_tc004() {
 		
 		loginPage lp=new loginPage(driver);
@@ -20,6 +20,9 @@ public class craeteorg_tc004 extends baseClass {
 		op.clickorg();
 		op.createorg();
 		op.orgname(randomeString());
+		homePage hp=new homePage(driver);
+		hp.mhover();
+		hp.signout();
 	}
 	
 }
