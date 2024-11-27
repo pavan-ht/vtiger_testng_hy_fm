@@ -10,7 +10,8 @@
   	<parameter name="browser"  value="chrome"/>
   
     <classes>
-      <class name="testcases.loginTestcase_001"/>
+      <class name="testcases.searchbox
+      "/>
       
     </classes>
   </test> <!-- Test -->

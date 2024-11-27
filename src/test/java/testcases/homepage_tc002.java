@@ -17,12 +17,14 @@ public class homepage_tc002 extends baseClass{
 		lp.sbmt();
 		
 		homePage hp=new homePage(driver);
-		
+		hp.homepagebutton();
 		hp.lead();
 		hp.createlead();
 		hp.entername(randomeString());
 		hp.mhover();
+		
 		hp.signout();
+		
 		
 	}
 	

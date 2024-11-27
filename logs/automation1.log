@@ -1,61 +1,10 @@
-2024-09-14 10:07:34 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\grouping.xml
-
-2024-09-14 10:07:40 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 10:07:58 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 11:55:17 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\master.xml
-
-2024-09-14 11:55:26 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:55:41 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:55:55 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:56:09 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:56:23 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:56:37 INFO  loginddt:15 - ***************test started*******************
-2024-09-14 11:56:52 INFO  loginddt:59 - **** Finished TC_003_LoginDDT *****
-2024-09-14 11:58:40 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\master.xml
-
-2024-09-14 11:58:47 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 11:59:03 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 12:00:18 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\master.xml
-
-2024-09-14 12:00:24 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 12:00:38 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 12:08:12 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\grouping.xml
-
-2024-09-14 12:08:19 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 12:08:32 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 12:09:08 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\grouping.xml
-
-2024-09-14 12:09:14 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 12:09:28 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 14:20:09 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\crossbrowser.xml
-
-2024-09-14 14:20:14 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:20:19 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:20:36 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 14:26:25 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\test-output\testng-failed.xml
-
-2024-09-14 14:26:33 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:26:48 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 14:27:37 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\test-output\testng-failed.xml
-
-2024-09-14 14:27:44 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:27:59 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 14:28:38 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\master.xml
-
-2024-09-14 14:28:44 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:29:00 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-09-14 14:30:01 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\master.xml
-
-2024-09-14 14:30:07 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-09-14 14:30:23 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-11-26 20:19:27 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-11-26 20:19:43 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-11-26 20:26:56 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-11-26 20:27:10 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-11-26 20:38:46 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-11-26 20:39:00 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-11-26 20:39:43 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-11-26 20:39:57 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-11-26 21:57:24 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-11-26 21:57:43 INFO  loginTestcase_001:25 - ***************test ended*******************

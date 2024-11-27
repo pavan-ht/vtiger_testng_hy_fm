@@ -155,6 +155,9 @@
       &lt;exclude name=&quot;&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -230,12 +233,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testlogin')
 data.setCell(0, 2, 'testcases.loginTestcase_001')
-data.setCell(0, 3, 14278);
+data.setCell(0, 3, 18904);
 window.suiteTableData['master']= { tableData: data, tableDiv: 'times-div-master'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-master">
               </div> <!-- times-div-master -->
             </div> <!-- times-div -->
@@ -261,16 +264,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.craeteorg_tc004</span>
+              <span class="ignored-class-name">testcases.homepage_tc002</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">craeteorg_tc004</span>
+                <span class="ignored-method-name">homepagetest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.homepage_tc002</span>
+              <span class="ignored-class-name">testcases.craeteorg_tc004</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">homepagetest</span>
+                <span class="ignored-method-name">craeteorg_tc004</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -289,11 +292,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testlogin</span>
-                <span class="method-start">5473 ms</span>
+                <span class="method-start">6765 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">19776 ms</span>
+                <span class="method-start">25732 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

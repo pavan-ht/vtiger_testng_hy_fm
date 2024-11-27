@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-14T14:30:01 IST" name="master" finished-at="2024-09-14T14:30:24 IST" duration-ms="22275">
+  <suite started-at="2024-11-25T11:17:53 IST" name="master" finished-at="2024-11-25T11:18:15 IST" duration-ms="21666">
     <groups>
       <group name="Master">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@37052337]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- Master -->
       <group name="smoke">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@37052337]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- smoke -->
       <group name="Regression">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@37052337]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-09-14T14:30:01 IST" name="Test" finished-at="2024-09-14T14:30:24 IST" duration-ms="22275">
+    <test started-at="2024-11-25T11:17:53 IST" name="Test" finished-at="2024-11-25T11:18:15 IST" duration-ms="21666">
       <class name="testcases.loginTestcase_001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.loginTestcase_001@37052337]" started-at="2024-09-14T14:30:02 IST" name="setup" finished-at="2024-09-14T14:30:07 IST" duration-ms="5286" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:17:54 IST" name="setup" finished-at="2024-11-25T11:17:59 IST" duration-ms="5426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,11 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogin()[pri:0, instance:testcases.loginTestcase_001@37052337]" started-at="2024-09-14T14:30:07 IST" name="testlogin" finished-at="2024-09-14T14:30:23 IST" duration-ms="15905" status="PASS">
+        <test-method signature="testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:17:59 IST" name="testlogin" finished-at="2024-11-25T11:18:14 IST" duration-ms="15119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTestcase_001@37052337]" started-at="2024-09-14T14:30:23 IST" name="teardown" finished-at="2024-09-14T14:30:24 IST" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:18:14 IST" name="teardown" finished-at="2024-11-25T11:18:15 IST" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

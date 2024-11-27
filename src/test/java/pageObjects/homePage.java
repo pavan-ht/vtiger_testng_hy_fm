@@ -55,6 +55,20 @@ public class homePage extends Basepage {
 	@FindBy(xpath="//a[normalize-space()='Sign Out']")
 	WebElement signout;
 	
+	@FindBy(xpath="//a[@class='hdrLink']")
+	WebElement homepagebutton;
+	
+	@FindBy(xpath="//input[@type='text']")
+	WebElement searchbox;
+	
+	public void searchbox(String text) {
+		searchbox.sendKeys(text);
+	}
+	public void homepagebutton() {
+		
+		homepagebutton.isDisplayed();
+	}
+	
 	public void signout() {
 		signout.click();
 	}

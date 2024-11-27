@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="chromeTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.loginTestcase_001">
+        <methods>
+          <include name="setup"/>
+          <include name="testlogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.loginTestcase_001 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
   <test thread-count="5" parallel="tests" name="edgeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
