@@ -1,10 +1,5 @@
-2024-11-26 20:19:27 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-11-26 20:19:43 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-11-26 20:26:56 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-11-26 20:27:10 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-11-26 20:38:46 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-11-26 20:39:00 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-11-26 20:39:43 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-11-26 20:39:57 INFO  loginTestcase_001:25 - ***************test ended*******************
-2024-11-26 21:57:24 INFO  loginTestcase_001:14 - ***************test started*******************
-2024-11-26 21:57:43 INFO  loginTestcase_001:25 - ***************test ended*******************
+2024-12-10 19:52:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\crossbrowser.xml
+
+2024-12-10 19:52:34 INFO  loginTestcase_001:14 - ***************test started*******************
+2024-12-10 19:52:55 INFO  loginTestcase_001:25 - ***************test ended*******************

@@ -2,21 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T11:17:53 IST" name="master" finished-at="2024-11-25T11:18:15 IST" duration-ms="21666">
+  <suite started-at="2024-12-10T19:52:21 IST" name="master" finished-at="2024-12-10T19:52:55 IST" duration-ms="34156">
     <groups>
       <group name="Master">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@7a560583]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@25e2ab5a]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- Master -->
       <group name="smoke">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@7a560583]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@25e2ab5a]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- smoke -->
       <group name="Regression">
-        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@7a560583]" name="testlogin" class="testcases.loginTestcase_001"/>
+        <method signature="loginTestcase_001.testlogin()[pri:0, instance:testcases.loginTestcase_001@25e2ab5a]" name="testlogin" class="testcases.loginTestcase_001"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-25T11:17:53 IST" name="Test" finished-at="2024-11-25T11:18:15 IST" duration-ms="21666">
+    <test started-at="2024-12-10T19:52:21 IST" name="chromeTest" finished-at="2024-12-10T19:52:55 IST" duration-ms="34156">
       <class name="testcases.loginTestcase_001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:17:54 IST" name="setup" finished-at="2024-11-25T11:17:59 IST" duration-ms="5426" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.loginTestcase_001@7a560583]" started-at="2024-12-10T19:52:22 IST" name="setup" finished-at="2024-12-10T19:52:34 IST" duration-ms="12664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +35,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogin()[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:17:59 IST" name="testlogin" finished-at="2024-11-25T11:18:14 IST" duration-ms="15119" status="PASS">
+        <test-method signature="testlogin()[pri:0, instance:testcases.loginTestcase_001@7a560583]" started-at="2024-12-10T19:52:34 IST" name="testlogin" finished-at="2024-12-10T19:52:55 IST" duration-ms="20162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTestcase_001@366c4480]" started-at="2024-11-25T11:18:14 IST" name="teardown" finished-at="2024-11-25T11:18:15 IST" duration-ms="469" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTestcase_001@7a560583]" started-at="2024-12-10T19:52:55 IST" name="teardown" finished-at="2024-12-10T19:52:55 IST" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.loginTestcase_001 -->
-    </test> <!-- Test -->
+    </test> <!-- chromeTest -->
   </suite> <!-- master -->
 </testng-results>

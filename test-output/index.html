@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-master" class="navigator-link ">
-                    <span>C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\grouping.xml</span>
+                    <span>C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\crossbrowser.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-master" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -136,38 +136,30 @@
         </div> <!-- panel master -->
         <div panel-name="test-xml-master" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\grouping.xml</span>
+            <span class="header-content">C:\Users\pa161\eclipse-workspace\vtiger_testng_hy_fm\crossbrowser.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;master&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;smoke&quot;/&gt;
-      &lt;exclude name=&quot;&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;smoke&quot;/&gt;
-      &lt;exclude name=&quot;&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;master&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;chromeTest&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.loginddt&quot;/&gt;
       &lt;class name=&quot;testcases.loginTestcase_001&quot;/&gt;
-      &lt;class name=&quot;testcases.homepage_tc002&quot;/&gt;
-      &lt;class name=&quot;testcases.craeteorg_tc004&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- chromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;edgeTest&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.loginTestcase_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- edgeTest --&gt;
 &lt;/suite&gt; &lt;!-- master --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,7 +171,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">chromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">edgeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,12 +228,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testlogin')
 data.setCell(0, 2, 'testcases.loginTestcase_001')
-data.setCell(0, 3, 15119);
+data.setCell(0, 3, 20162);
 window.suiteTableData['master']= { tableData: data, tableDiv: 'times-div-master'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-master">
               </div> <!-- times-div-master -->
             </div> <!-- times-div -->
@@ -253,30 +248,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-master" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.craeteorg_tc004</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">craeteorg_tc004</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.homepage_tc002</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">homepagetest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.loginddt</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testloginddt</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-master" class="panel">
@@ -292,11 +266,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testlogin</span>
-                <span class="method-start">5452 ms</span>
+                <span class="method-start">12696 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">20652 ms</span>
+                <span class="method-start">32920 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
